@@ -13,7 +13,7 @@ import { Note } from '../models/Note';
  * Main container component for the QuickNote Organizer application
  */
 export const MainContainer: React.FC = () => {
-  const { width, height } = useVideoConfig();
+  const { } = useVideoConfig();
   const [showNoteForm, setShowNoteForm] = useState(false);
   const [noteToEdit, setNoteToEdit] = useState<Note | null>(null);
   

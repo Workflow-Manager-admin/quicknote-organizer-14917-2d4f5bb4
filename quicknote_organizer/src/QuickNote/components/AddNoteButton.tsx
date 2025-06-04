@@ -1,6 +1,6 @@
 import React from 'react';
 import { spring, useCurrentFrame, useVideoConfig } from 'remotion';
-import { COLORS, SHADOW } from '../constants';
+import { COLORS } from '../constants';
 
 interface AddNoteButtonProps {
   onClick: () => void;

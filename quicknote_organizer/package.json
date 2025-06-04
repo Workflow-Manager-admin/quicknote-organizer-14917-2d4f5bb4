@@ -6,6 +6,10 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.1.1",
+    "@mui/material": "^7.1.1",
     "@remotion/cli": "4.0.286",
     "@remotion/zod-types": "4.0.286",
     "react": "19.0.0",

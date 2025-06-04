@@ -34,3 +34,9 @@ Building...
 Built in 269ms
 Building...
 Built in 269ms
+ERROR in ./src/Root.tsx 6:0-66
+Module not found: Error: Can't resolve './QuickNote' in '/home/kavia/workspace/code-generation/quicknote-organizer-14917-2d4f5bb4/quicknote_organizer/src'
+Built in 262ms
+Building...
+<w> [webpack.cache.PackFileCacheStrategy] Restoring pack from /home/kavia/workspace/code-generation/quicknote-organizer-14917-2d4f5bb4/quicknote_organizer/node_modules/.cache/webpack/remotion-development-4.0.286/57dc5c077c568900b80895d1d7803e2f.pack failed: TypeError: Cannot read properties of undefined (reading 'hasStartTime')
+Built in 282ms

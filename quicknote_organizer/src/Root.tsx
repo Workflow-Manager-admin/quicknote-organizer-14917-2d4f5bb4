@@ -1,7 +1,11 @@
 import { Composition } from "remotion";
 import { HelloWorld, myCompSchema } from "./HelloWorld";
 import { Logo, myCompSchema2 } from "./HelloWorld/Logo";
-import QuickNoteOrganizer, { quickNoteSchema } from "./QuickNote";
+import { MainContainer as QuickNoteOrganizer } from "./QuickNote/components/MainContainer";
+import { z } from "zod";
+
+// Define schema for the QuickNote component
+export const quickNoteSchema = z.object({});
 
 // Each <Composition> is an entry in the sidebar!
 

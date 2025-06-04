@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { spring, useCurrentFrame, useVideoConfig, interpolate } from 'remotion';
-import { CATEGORIES, COLORS, FONT_FAMILY, SHADOW, CARD_BORDER_RADIUS, Category } from '../constants';
+import { spring, useCurrentFrame, useVideoConfig } from 'remotion';
+import { CATEGORIES, COLORS, FONT_FAMILY, SHADOW, CARD_BORDER_RADIUS } from '../constants';
 import { Note } from '../models/Note';
 
 interface NoteCardProps {
